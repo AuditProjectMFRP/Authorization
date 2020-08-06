@@ -7628,11 +7628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Subhanshu\\source\\repos\\Authorization.UnitTest\\Authorization.UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization.UnitTest\\Authorization.UnitTest.csproj",
       "projectName": "Authorization.UnitTest",
-      "projectPath": "C:\\Users\\Subhanshu\\source\\repos\\Authorization.UnitTest\\Authorization.UnitTest.csproj",
+      "projectPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization.UnitTest\\Authorization.UnitTest.csproj",
       "packagesPath": "C:\\Users\\Subhanshu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Subhanshu\\source\\repos\\Authorization.UnitTest\\obj\\",
+      "outputPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7651,8 +7651,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Subhanshu\\source\\repos\\Authorization service\\Authorization service.csproj": {
-              "projectPath": "C:\\Users\\Subhanshu\\source\\repos\\Authorization service\\Authorization service.csproj"
+            "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj": {
+              "projectPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Subhanshu\\source\\repos\\Authorization service\\Authorization service.csproj": {}
+    "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Subhanshu\\source\\repos\\Authorization service\\Authorization service.csproj": {
+    "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Subhanshu\\source\\repos\\Authorization service\\Authorization service.csproj",
+        "projectUniqueName": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj",
         "projectName": "Authorization service",
-        "projectPath": "C:\\Users\\Subhanshu\\source\\repos\\Authorization service\\Authorization service.csproj",
+        "projectPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj",
         "packagesPath": "C:\\Users\\Subhanshu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Subhanshu\\source\\repos\\Authorization service\\obj\\",
+        "outputPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

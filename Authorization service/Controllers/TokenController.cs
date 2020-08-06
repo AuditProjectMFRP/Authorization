@@ -42,7 +42,7 @@ namespace Authorization_service.Controllers
 
             return response;
         }
-        public string GenerateJSONWebToken(Authenticate userInfo)
+        private string GenerateJSONWebToken(Authenticate userInfo)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
@@ -55,7 +55,7 @@ namespace Authorization_service.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-        public Authenticate AuthenticateUser(Authenticate login)
+        private Authenticate AuthenticateUser(Authenticate login)
         {
             Authenticate user = null;
             Dictionary<string,string> ValidUsersDictionary = new Dictionary<string,string>()

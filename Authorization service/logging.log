@@ -608,3 +608,29 @@ INFO  03:10:02 Content root path: C:\Users\Subhanshu\source\repos\Authorization 
 INFO  03:10:27 Token generated for user subhanshu
 INFO  03:23:19 Token generated for user subhanshu
 INFO  03:39:11 Token generated for user subhanshu
+INFO  11:23:04 Application started. Press Ctrl+C to shut down.
+INFO  11:23:04 Application started. Press Ctrl+C to shut down.
+INFO  11:23:04 Hosting environment: Development
+INFO  11:23:04 Hosting environment: Development
+INFO  11:23:04 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  11:23:04 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+ERROR 11:23:05 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Ambiguous HTTP method for action - Authorization_service.Controllers.TokenController.GenerateJSONWebToken (Authorization service). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:23:05 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Ambiguous HTTP method for action - Authorization_service.Controllers.TokenController.GenerateJSONWebToken (Authorization service). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:23:57 Application started. Press Ctrl+C to shut down.
+INFO  11:23:57 Application started. Press Ctrl+C to shut down.
+INFO  11:23:57 Hosting environment: Development
+INFO  11:23:57 Hosting environment: Development
+INFO  11:23:57 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  11:23:57 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
