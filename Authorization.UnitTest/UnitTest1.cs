@@ -13,18 +13,28 @@ namespace Authorization.UnitTest
         }
 
         /*[Test]
-        public void IsTokenNotNull()
+        public void IsTokenNotNull_When_ValidUserCredentialsAreUsed()
         {
+            //Arrange
+
+            //Act
             var TokenObj = new TokenController();
             var Result = TokenObj.AuthenticateUser(new Authenticate() { Name = "subhanshu", Password = "bankhwal" });
+
+            //Assert
             Assert.IsNotNull(Result);
         }
 
         [Test]
-        public void IsTokenNull()
+        public void IsTokenNull_When_InalidUserCredentialsAreUsed()
         {
+            //Arrange
+
+            //Act
             var TokenObj = new TokenController();
             var Result =TokenObj.AuthenticateUser(new Authenticate(){Name = "wronginput",Password = "wronginput"});
+
+            //Assert
             Assert.IsNull(Result);
         }*/
 
