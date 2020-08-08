@@ -17,15 +17,12 @@ namespace Authorization_service.Controllers
     {
         private IConfiguration _config;
 
-        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(TokenController));
+        readonly log4net.ILog _log4net;
         public TokenController(IConfiguration config)
         {
             _config = config;
+            _log4net = log4net.LogManager.GetLogger(typeof(TokenController));
         }
-
-        /*public TokenController()
-        {
-        }*/
 
         [HttpPost]
         public IActionResult Login([FromBody] Authenticate login)
@@ -71,10 +68,6 @@ namespace Authorization_service.Controllers
                 user = new Authenticate { Name = login.Name, Password = login.Password };
             }
 
-            /*if (login.Name == "admin" && login.Password=="admin")
-            {
-                user = new Authenticate { Name = "admin", Password = "admin" };
-            }*/
             return user;
         }
     }

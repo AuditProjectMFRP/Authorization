@@ -641,3 +641,149 @@ INFO  11:32:20 Hosting environment: Development
 INFO  11:32:20 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
 INFO  11:32:20 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
 INFO  11:33:01 Token generated for user subhanshu
+INFO  06:22:59 Token generated for user subhanshu
+INFO  07:09:57 Token generated for user subhanshu
+INFO  07:10:51 Token generated for user subhanshu
+INFO  08:20:39 Token generated for user subhanshu
+INFO  08:21:41 Token generated for user subhanshu
+INFO  08:22:30 Token generated for user subhanshu
+INFO  08:25:29 Token generated for user subhanshu
+INFO  08:29:21 Token generated for user subhanshu
+INFO  08:29:59 Token generated for user subhanshu
+INFO  08:55:24 Token generated for user subhanshu
+INFO  10:21:04 Application started. Press Ctrl+C to shut down.
+INFO  10:21:04 Application started. Press Ctrl+C to shut down.
+INFO  10:21:04 Hosting environment: Development
+INFO  10:21:04 Hosting environment: Development
+INFO  10:21:04 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  10:21:04 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  10:23:20 Token generated for user subhanshu
+INFO  10:56:52 Token generated for user subhanshu
+INFO  11:30:59 Token generated for user subhanshu
+INFO  11:52:21 Token generated for user subhanshu
+INFO  01:04:53 Application started. Press Ctrl+C to shut down.
+INFO  01:04:53 Application started. Press Ctrl+C to shut down.
+INFO  01:04:53 Hosting environment: Development
+INFO  01:04:53 Hosting environment: Development
+INFO  01:04:53 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  01:04:53 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  01:08:54 Token generated for user subhanshu
+INFO  01:17:07 Token generated for user subhanshu
+INFO  04:56:16 Application started. Press Ctrl+C to shut down.
+INFO  04:56:16 Application started. Press Ctrl+C to shut down.
+INFO  04:56:16 Hosting environment: Development
+INFO  04:56:16 Hosting environment: Development
+INFO  04:56:16 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  04:56:16 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  04:56:30 Token generated for user subhanshu
+INFO  05:25:54 Application started. Press Ctrl+C to shut down.
+INFO  05:25:54 Application started. Press Ctrl+C to shut down.
+INFO  05:25:54 Hosting environment: Development
+INFO  05:25:54 Hosting environment: Development
+INFO  05:25:54 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  05:25:54 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+ERROR 05:26:11 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Authorization_service.Controllers.TokenController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:26:11 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Authorization_service.Controllers.TokenController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  06:40:58 Application started. Press Ctrl+C to shut down.
+INFO  06:40:58 Application started. Press Ctrl+C to shut down.
+INFO  06:40:58 Hosting environment: Development
+INFO  06:40:58 Hosting environment: Development
+INFO  06:40:58 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  06:40:58 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  01:16:14 Application started. Press Ctrl+C to shut down.
+INFO  01:16:14 Application started. Press Ctrl+C to shut down.
+INFO  01:16:14 Hosting environment: Development
+INFO  01:16:14 Hosting environment: Development
+INFO  01:16:14 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  01:16:14 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+ERROR 01:16:30 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Authorization_service.Controllers.TokenController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:16:30 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Authorization_service.Controllers.TokenController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:23:11 Application started. Press Ctrl+C to shut down.
+INFO  01:23:11 Application started. Press Ctrl+C to shut down.
+INFO  01:23:11 Hosting environment: Development
+INFO  01:23:11 Hosting environment: Development
+INFO  01:23:11 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  01:23:11 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  01:23:29 Token generated for user subhanshu
+INFO  01:32:39 Application started. Press Ctrl+C to shut down.
+INFO  01:32:39 Application started. Press Ctrl+C to shut down.
+INFO  01:32:39 Hosting environment: Development
+INFO  01:32:39 Hosting environment: Development
+INFO  01:32:39 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  01:32:39 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  01:32:56 Token generated for user subhanshu
+INFO  10:35:55 Application started. Press Ctrl+C to shut down.
+INFO  10:35:55 Application started. Press Ctrl+C to shut down.
+INFO  10:35:55 Hosting environment: Development
+INFO  10:35:55 Hosting environment: Development
+INFO  10:35:55 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  10:35:55 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  10:36:16 Token generated for user subhanshu

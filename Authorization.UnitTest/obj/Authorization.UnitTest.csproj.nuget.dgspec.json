@@ -4,12 +4,12 @@
     "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization.UnitTest\\Authorization.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj": {
+    "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorizationservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj",
-        "projectName": "Authorization service",
-        "projectPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj",
+        "projectUniqueName": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorizationservice.csproj",
+        "projectName": "Authorizationservice",
+        "projectPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorizationservice.csproj",
         "packagesPath": "C:\\Users\\Subhanshu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\obj\\",
         "projectStyle": "PackageReference",
@@ -52,6 +52,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -114,8 +118,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj": {
-                "projectPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj"
+              "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorizationservice.csproj": {
+                "projectPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorizationservice.csproj"
               }
             }
           }
@@ -132,6 +136,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",

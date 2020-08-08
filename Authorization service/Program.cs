@@ -28,7 +28,6 @@ namespace Authorization_service
                         .ConfigureLogging((hostingContext, logging) =>
                         {
                             logging.AddLog4Net();
-
                             logging.SetMinimumLevel(LogLevel.Error);
                         });
                 });

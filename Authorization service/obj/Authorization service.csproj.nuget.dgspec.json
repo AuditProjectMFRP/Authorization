@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj",
-        "projectName": "Authorization service",
+        "projectName": "Authorizationservice",
         "projectPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\Authorization service.csproj",
         "packagesPath": "C:\\Users\\Subhanshu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Subhanshu\\source\\AuthrorizationService\\Authorization service\\obj\\",
@@ -52,6 +52,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
