@@ -27,6 +27,12 @@ namespace Authorization_service.Controllers
         [HttpPost]
         public IActionResult Login([FromBody] Authenticate login)
         {
+            if (login.Name == null || login.Password == null)
+            {
+                _log4net.Error("Null Values");
+                return BadRequest();
+            }
+
             IActionResult response = Unauthorized();
             var user = AuthenticateUser(login);
 

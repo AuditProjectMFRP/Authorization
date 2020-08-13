@@ -787,3 +787,12 @@ INFO  10:35:55 Hosting environment: Development
 INFO  10:35:55 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
 INFO  10:35:55 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
 INFO  10:36:16 Token generated for user subhanshu
+INFO  10:43:16 Application started. Press Ctrl+C to shut down.
+INFO  10:43:16 Application started. Press Ctrl+C to shut down.
+INFO  10:43:16 Hosting environment: Development
+INFO  10:43:16 Hosting environment: Development
+INFO  10:43:16 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  10:43:16 Content root path: C:\Users\Subhanshu\source\AuthrorizationService\Authorization service
+INFO  10:43:52 Token generated for user subhanshu
+INFO  10:52:01 Token generated for user subhanshu
+INFO  11:03:16 Token generated for user subhanshu
